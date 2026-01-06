@@ -34,20 +34,6 @@ DevOps Engineer with years of experience optimizing CI/CD pipelines, automating 
 - **AWS Certified Solutions Architect – Associate**
 - **AWS Certified SysOps Administrator – Associate**
 
-## Featured Projects & Contributions
-
-- **[Cilium Fork](https://github.com/henrypham67/cilium)**: Exploring eBPF for Kubernetes networking – planning contributions to docs and features.
-- **[Istio Exploration](https://github.com/henrypham67/istio)**: Service mesh setups for secure microservices.
-- **[Cloud-Nuke Tool](https://github.com/henrypham67/cloud-nuke)**: AWS resource cleanup scripts in Golang.
-- **Open-Source Goals**: Aiming for PRs in Prometheus and Terraform modules. Check my [contributions](https://github.com/henrypham67?tab=overview&from=2025-12-01) for latest activity.
-
-## Stats
-<!-- GitHub Stats Card -->
-![Hieu's GitHub Stats](https://github-readme-stats.vercel.app/api?username=henrypham67&show_icons=true&theme=gruvbox&hide=contribs&count_private=true)
-
-<!-- Top Languages -->
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=henrypham67&layout=compact&theme=gruvbox&langs_count=8)
-
 ## Connect with Me
 
 - **Email:** [minhhieu060799@gmail.com](mailto:minhhieu060799@gmail.com)
