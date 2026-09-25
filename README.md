@@ -51,11 +51,12 @@ More at [henrypham67.github.io](https://henrypham67.github.io/).
 
 ## Certifications
 
-- Certified Kubernetes Administrator (CKA) — CNCF, valid to 08/2028
-- Certified Kubernetes Application Developer (CKAD) — CNCF, valid to 04/2028
-- AWS Certified SysOps Administrator – Associate — valid to 01/2027
+- Certified Kubernetes Administrator (CKA) — CNCF
+- Certified Kubernetes Application Developer (CKAD) — CNCF
+- AWS Certified SysOps Administrator – Associate
+- AWS Certified Solutions Architect - Associate
 
-**Education:** B.Sc. Computer Science, Ton Duc Thang University (2017–2022)
+**Education:** B.Sc. Computer Science, Ton Duc Thang University
 
 ## Contact
 
