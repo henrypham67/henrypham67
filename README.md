@@ -1,42 +1,62 @@
-# 🦀 Hieu Pham
+# Minh Hieu (Henry) Pham
 
-**`DevOps Engineer`**
+**DevOps / Platform Engineer** · Ho Chi Minh City, Vietnam · open to remote roles
 
-DevOps Engineer with years of experience optimizing CI/CD pipelines, automating infrastructure with GitOps practices, and enhancing system reliability. Proven in reducing build times, integrating security checks, and managing Kubernetes clusters. Strong backend skills in API design, database optimization, and automated testing. Passionate about cloud-native technologies, observability, and contributing to open-source DevOps tools. Based in Ho Chi Minh, Vietnam.
+4+ years building and operating cloud-native platforms on AWS (EKS, ECS Fargate).
+CI/CD and GitOps, Infrastructure-as-Code with Terraform Enterprise, Kubernetes
+operations, and full-stack observability. CKA, CKAD, and AWS SysOps certified.
 
-## About Me
+## What I've shipped
 
-- **DevOps Expertise:** Optimizing CI/CD pipelines with tools like GitLab CI, ArgoCD, and GitHub Actions; automating infrastructure provisioning and configuration management using Terraform, Ansible, and GitOps practices; managing Kubernetes clusters for high availability and scalability.
-- **Impact Highlights:** Increased deployment frequency to Kubernetes by 25%, reduced repetitive tasks by 20% with custom Golang/Python tools, accelerated incident detection by 10% and mean time to resolution by 20% via centralized monitoring (Prometheus, Grafana, Loki); reduced pipeline execution times by 15%, boosted test coverage by 40%, decreased Docker image sizes by 25%, and improved database query efficiency by 25%.
-- **Backend Development Skills:** Designed RESTful APIs with FastAPI and Django; developed real-time CDC pipelines using Kafka, Debezium, PostgreSQL, and MongoDB; automated testing with PyTest and integrated security scans like SonarQube and OWASP Dependency-Check.
-- **Current Focus:** Building reliable, secure systems in cloud environments (AWS EKS)
+- **Greenfield EKS platform** in a new AWS account: Terraform-authored cluster,
+  ArgoCD app-of-apps GitOps delivery, a tag-pinned shared CI-template library,
+  Graviton/arm64 node groups. New-workload onboarding is a single commit + merge request.
+- **Postgres on Kubernetes with CloudNativePG:** continuous WAL archiving with
+  point-in-time recovery, RPO ≤ 5 min.
+- **EC2 → EKS / ECS Fargate migration** across multiple AWS accounts, legacy
+  instances and load balancers decommissioned, cloud spend cut by up to 30%.
+- **Observability stack:** OpenTelemetry collectors → Mimir, Loki, Tempo, Grafana,
+  Alertmanager; Istio for service-mesh telemetry.
+- **Internal tooling in Go/Python:** a dependency-graph tool that generates GitLab CI
+  pipelines, and AI-agent skills against the platform's REST APIs — 15% less manual ops overhead.
+- **Lakehouse ingestion** with Apache Iceberg, Kafka and Debezium CDC.
 
-## Skill Stack
+## Open source
 
-[![My Skills](https://skillicons.dev/icons?i=aws,kubernetes,docker,git,github,gitlab,terraform,ansible,prometheus,python,golang,bash&theme=light)](https://skillicons.dev)
+- [derailed/k9s #3756](https://github.com/derailed/k9s/pull/3756) — Flux reconcile plugin (merged)
+- [derailed/k9s #3750](https://github.com/derailed/k9s/pull/3750) — Flux trace plugin shortcut fix (merged)
+- [adityatelange/hugo-PaperMod #1846](https://github.com/adityatelange/hugo-PaperMod/pull/1846) — post-content hook partials (merged)
+- [kolb](https://github.com/henrypham67/kolb) — Claude Code plugin: Kolb learning cycle + SM-2 spaced repetition for DevOps engineers
 
-**Observability Tools**: Alertmanager, Grafana, Loki, Mimir, OpenTelemetry, Prometheus, Tempo  
-**Programming & Scripting**: Bash, Go, Python  
-**CI/CD**: ArgoCD, FluxCD, GitHub Actions, GitLab CI, Jenkins, Octopus Deploy  
-**Operating Systems**: Linux, macOS  
-**IaC & Config Management**: Ansible, Atlantis, ClusterAPI, Helm, Kustomize, Terraform  
-**Containerization & Orchestration**: Docker, Kubernetes  
-**Databases**: NoSQL (MongoDB), SQL (PostgreSQL, MySQL)  
-**Cloud Platforms**: AWS (EC2, S3, RDS, IAM, VPC, EKS)  
-**Messaging & Streaming**: Debezium, Kafka  
-**Other Tools**: Git, SonarQube, Vim  
-**Also comfortable with**: Networking/Security (VPC, IAM), Basic ML workflows.
+## Writing
 
-## Education & Certifications
+- [Understanding PostgreSQL Replication Slots in CloudNativePG](https://henrypham67.github.io/posts/databases/postgres-replication-slots-cloudnativepg/)
+- [Managing PostgreSQL in Kubernetes with CloudNativePG](https://henrypham67.github.io/posts/databases/db-operator/)
+- [Migrating from ArgoCD App-of-Apps to ApplicationSet](https://henrypham67.github.io/posts/argo/application-set/)
+- [LimitRanges and ResourceQuotas](https://henrypham67.github.io/posts/kubernetes/kubernetes-policies/)
+- [Kubernetes admission controllers](https://henrypham67.github.io/posts/kubernetes/admission-controller/)
 
-- **Bachelor's Degree in Computer Science**, Ton Duc Thang University
-  - **Awards**: Incentive Award for Ton Duc Thang's Scientific Research Contest (10/2020)
-- **AWS Certified Solutions Architect – Associate**
-- **AWS Certified SysOps Administrator – Associate**
+More at [henrypham67.github.io](https://henrypham67.github.io/).
 
-## Connect with Me
+## Stack
 
-- **Email:** [minhhieu060799@gmail.com](mailto:minhhieu060799@gmail.com)
-- **Phone:** +84 989 194 190
-- **Portfolio:** [henrypham67.github.io](https://henrypham67.github.io/)
-- **LinkedIn:** [linkedin.com/in/pmhieu67](https://www.linkedin.com/in/pmhieu67/)
+[![Skills](https://skillicons.dev/icons?i=aws,kubernetes,docker,terraform,ansible,prometheus,grafana,go,python,bash,git,gitlab,githubactions)](https://skillicons.dev)
+
+**CI/CD & GitOps:** ArgoCD, FluxCD, GitLab CI, GitHub Actions, Jenkins, Octopus Deploy, Atlantis  
+**IaC & config:** Terraform / Terraform Enterprise, Helm, Kustomize, Ansible  
+**Observability:** OpenTelemetry, Prometheus, Mimir, Loki, Tempo, Grafana, Alertmanager  
+**Access & mesh:** Teleport, Istio  
+**Data:** PostgreSQL (CloudNativePG), MongoDB, MySQL, Kafka, Debezium  
+**Languages:** Go, Python, Bash
+
+## Certifications
+
+- Certified Kubernetes Administrator (CKA) — CNCF, valid to 08/2028
+- Certified Kubernetes Application Developer (CKAD) — CNCF, valid to 04/2028
+- AWS Certified SysOps Administrator – Associate — valid to 01/2027
+
+**Education:** B.Sc. Computer Science, Ton Duc Thang University (2017–2022)
+
+## Contact
+
+[minhhieu060799@gmail.com](mailto:minhhieu060799@gmail.com) · [LinkedIn](https://www.linkedin.com/in/pmhieu67/) · [Blog](https://henrypham67.github.io/)
